@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+    background-color: #000000;
+}
+
+.score{
+    position: fixed;
+    color: white;
+    margin: 0.7vw;
+    font-size: 2.5vw;
+}
+
+.message{
+    background-color:white;
+    border: 1px solid;
+    border-radius: 3vw;
+    width: 50vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+}
+
+.message_Menu-1{
+    font-size: 10vw;
+}
+
+.message_Menu-2{
+    color: rgb(48, 47, 47);
+}
+
+button{
+    background-color: rgb(2, 129, 214);
+    color: white;
+    width: 100%;
+    padding: 1vw;
+    font-size: 2.5vw;
+    margin-top: 1vh;
+    border-radius: 3vw;
+}
+
+
+
+.messageContainer{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
